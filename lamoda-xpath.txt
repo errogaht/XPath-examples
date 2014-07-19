@@ -1,0 +1,40 @@
+
+sizes
+.//div[@class='size-chooser__list']/span[not(contains(@class, 'button_disabled'))]/span[@data-size-system="RUS"]
+
+price
+.//*[@itemprop="price"]
+
+brand
+.//*[@itemprop="brand"]
+
+title
+.//h1[@itemprop="name"]
+
+images
+.//li[contains(@class, 'photos-list__item')]/@data-orig
+
+descr
+.//*[@itemprop="description"]
+
+.//table[@class='product-content__table']//th[substring-after(text(), "Материал верх")]/following::text()[1]
+
+.//table[@class='product-content__table']//th[substring-after(text(), "Внутренний матери")]/following::text()[1]
+
+.//table[@class='product-content__table']//th[substring-after(text(), "Материал стел")]/following::text()[1]
+.//table[@class='product-content__table']//th[substring-after(text(), "Материал подош")]/following::text()[1]
+.//table[@class='product-content__table']//th[substring-after(text(), "Высота голен")]/following::text()[1]
+.//table[@class='product-content__table']//th[substring-after(text(), "Цве")]/following::text()[1]
+
+.//table[@class='product-content__table']//th[substring-after(text(), "Страна производ")]/following::text()[1]
+.//table[@class='product-content__table']//th[substring-after(text(), "Сезо")]/following::text()[1]
+
+.//table[@class='product-content__table']//th[substring-after(text(), "Коллекц")]/following::text()[1]
+
+.//div[@class="breadcrumbs"]/*[2]
+
+.//div[@class="breadcrumbs"]/*[3]
+
+.//div[@class="breadcrumbs"]/*[4]
+
+.//div[@class="breadcrumbs"]/*[5]

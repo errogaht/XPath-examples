@@ -1,0 +1,23 @@
+images
+.//figure[contains(@class, 'flexslider-carousel-item')]/@data-imagepicker-img
+
+one image
+.//a[@id='zoom']/@href
+
+title
+.//h1[@class='product-name']
+
+sizes
+.//div[@class='sizes']/div
+
+price
+.//div[@class='price']
+
+priceOld
+.//div[@class='price-old']
+
+color
+.//div[@class='colors']/div/@title
+
+category
+.//div[@class='crumbs']/a[2]

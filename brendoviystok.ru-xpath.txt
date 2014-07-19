@@ -1,0 +1,17 @@
+title
+.//div[@id='content-body']/h1
+
+manufacturer
+.//span[@class='opt'][contains(text(),'Производ')]/following-sibling::span
+
+sizes
+.//table[2]//table//select[@class='shop-options-s ']/option
+
+images
+.//table[2]//img[@class='gphoto']/@src
+
+price
+.//table[2]//span[contains(@class,'-price')]
+
+list item link
+.//div[@class='list-item']//a[@style='font-size:16px']/@href

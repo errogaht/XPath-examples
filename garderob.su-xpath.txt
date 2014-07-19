@@ -1,0 +1,23 @@
+images
+.//img[contains(@class,"tovarfoto")]/@src
+
+title
+.//div[@class='tovarpage']/table/tbody/tr/td/h1
+
+price
+.//p[contains(@class,'tovarprice')]/span/*
+
+discount
+.//p[contains(@class,'tovarprice')]/span/child::text()[2]
+
+.//div[@class="composition_table"]/div[substring-after(text(), "Производство")]
+
+.//div[@class="composition_table"]/div[substring-after(text(), "Цвет")]
+
+.//div[@class="composition_table"]/div[substring-after(text(), "Материал")]
+
+sizes
+.//form[@action="/busket/"]//tbody/tr/td[@class="black"]
+
+manufacturer
+.//div[@class="tovarpage"]//td[@class="tovarlogo"]

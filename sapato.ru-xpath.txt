@@ -1,0 +1,36 @@
+
+title
+.//h1[@itemprop="name"]
+
+old price
+.//div[@class="catalog-price"]/div[@class='old']
+
+discount price
+.//div[@class="catalog-price"]/span[@class='detailNewPrice']
+
+size
+.//ul[contains(@class, 'detail_size')]/li/span
+
+
+brand-logo-image
+.//a[@class='brand-logo']/@href
+
+images
+.//a[@class='cloud-zoom-gallery-new']/@href
+
+description
+.//div[@itemprop="description"]
+
+
+.//div[@class='prop-item']/dt[substring-after(text(), "Сезон")]/following::text()[2]
+.//div[@class='prop-item']/dt[substring-after(text(), "Цвет")]/following::text()[2]
+.//div[@class='prop-item']/dt[substring-after(text(), "Внешний материал")]/following::text()[2]
+.//div[@class='prop-item']/dt[substring-after(text(), "Внутренний материал")]/following::text()[2]
+.//div[@class='prop-item']/dt[substring-after(text(), "Стелька")]/following::text()[2]
+.//div[@class='prop-item']/dt[substring-after(text(), "Подошва")]/following::text()[2]
+.//div[@class='prop-item']/dt[substring-after(text(), "Высота каблука")]/following::text()[2]
+.//div[@class='prop-item']/dt[substring-after(text(), "Размерность")]/following::text()[2]
+
+.//ul[@id='breadcrumbs']/li[4]/a
+.//ul[@id='breadcrumbs']/li[6]/a
+.//ul[@id='breadcrumbs']/li[8]/a
